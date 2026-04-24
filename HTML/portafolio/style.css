@@ -1,0 +1,136 @@
+body{
+    background-image: url(background.jpeg);
+    background: repeat no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.bloque_azul{
+    background-color:  cornflowerblue;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+}
+header{
+    color:black ;
+    font-size: 5vh;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translate(-50%,-50%);
+}
+
+.bloque_2{
+    background-color: antiquewhite;
+    width:100%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    bottom: 130px;
+}
+nav{
+    color: black;
+    font-size: 3vh;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.bloque_3{
+    background-color: aquamarine;
+    width: 31vw;
+    height: 27vw;
+    position: relative;
+    margin-left: 12vh;
+    margin-right: 12vh;
+}
+aside{
+    color: black;
+    font-size: 3vh;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    top: 47.3%;
+    left: 17.7%;
+    position: absolute;
+}
+#parrafo{
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 2.5vh;
+}
+
+.bloque_4{
+    background-color: violet;
+    width: 63.5vw;
+    height: 27vw;
+    position: relative;
+}
+main{
+    color: black;
+    font-size: 2vh;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    top: 48%;
+    left: 66%;
+    position: absolute;
+}
+
+.imagen_1 img{
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    left: 5%;
+    border-radius: 5px;
+
+}
+
+.imagen_2{
+    position: relative;
+    width: 40%;
+    height: 40%;
+}
+.imagen_2 img{
+    position: absolute;
+    width: 95%;
+    height: 90%;
+    top: 130%;
+    left: 150%;
+
+    border-radius: 5px;
+    object-fit: cover;
+}
+.imagen_3{
+    position: relative;
+    right: 18%;
+    bottom: 40%;
+}
+.imagen_3 img{
+    position: absolute;
+    width: 25%;
+    border-radius: 5px;
+}
+.imagen_4 img{
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    border-radius: 5px;
+    top: 10%;
+    left: 59%;
+}
+
+
+.bloque_5{
+    background-color: gold;
+    width: 100%;
+    position: relative;
+    top: 450px;
+    left: 930px;
+}
+footer{
+    color: black;
+    font-size: 3vh;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
